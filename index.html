@@ -1,74 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aayush Bhusari | Portfolio</title>
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome Icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
-
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="bg-animation"></div>
+    
+    <nav>
+        <div class="container">
+            <div class="logo">AB</div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aayush-bhusari-/" target="_blank" class="btn-social">LinkedIn</a>
+                <a href="https://github.com/your-github-username" target="_blank" class="btn-social">GitHub</a>
+                <a href="mailto:aayush.bhusari@utdallas.edu" class="btn-social">Email</a>
+            </div>
+        </div>
+    </nav>
 
-    <!-- Animated Background -->
-    <div class="background-animation"></div>
+    <header class="hero">
+        <div class="container">
+            <img src="assets/profile.jpeg" alt="Aayush Bhusari" class="profile-img">
+            <h1>Aayush Bhusari</h1>
+            <p class="summary">
+                I am a <strong>Master of Science in Information Technology and Management</strong> student at <strong>The University of Texas at Dallas</strong>[cite: 4, 5]. With a foundational background in AI and Data Science[cite: 7], I specialize in building intelligent systems through <strong>Data Analysis, Machine Learning, and Automated Pipelines</strong>. I am passionate about bridging the gap between complex data and actionable business insights.
+            </p>
+        </div>
+    </header>
 
-    <main class="container">
-
-        <!-- Header -->
-        <header class="header">
-            <div class="header-text">
-                <h1>Aayush Bhusari</h1>
-                <p class="tagline">Data Analysis · Machine Learning · Applied Analytics</p>
-
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/aayush-bhusari-/" target="_blank" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/" target="_blank" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="mailto:aayush.bhusari@utdallas.edu" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <p>Python, SQL, C++ [cite: 9]</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <p>MySQL, PostgreSQL [cite: 10]</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Data & ML</h3>
+                    <p>Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, OpenCV [cite: 15]</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Visualization</h3>
+                    <p>Tableau, PowerBI, Microsoft Excel, JIRA, Git, GitHub [cite: 14, 15]</p>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="profile-photo">
-                <img src="assets/profile.jpg" alt="Aayush Bhusari"/>
-            </div>
-        </header>
-
-        <!-- Summary Section -->
-        <section class="section">
-            <h2>Summary</h2>
-            <p>
-                I am a Master’s student in Information Technology and Management at The University of Texas at Dallas,
-                with a strong foundation in data analysis, machine learning, and applied analytics. My background
-                spans working with structured and unstructured data, building end-to-end analytical pipelines,
-                and applying statistical and machine learning techniques to real-world problems.
-            </p>
-            <p>
-                I have hands-on experience with Python, SQL, data visualization tools, and core machine learning
-                libraries, and I am particularly interested in using data-driven approaches to support decision-making
-                in technology-focused and analytics-driven environments.
-            </p>
-        </section>
-
-        <!-- Projects Section (Empty for now) -->
-        <section class="section">
+    <section id="projects" class="projects-section">
+        <div class="container">
             <h2>Projects</h2>
-            <p class="muted-text">
-                Projects will be added here soon.
-            </p>
-        </section>
+            <p class="placeholder-text">Exciting projects coming soon...</p>
+        </div>
+    </section>
 
-    </main>
-
+    <footer>
+        <p>&copy; 2026 Aayush Bhusari</p>
+    </footer>
 </body>
 </html>
