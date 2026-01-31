@@ -198,11 +198,54 @@ body {
     background: rgba(255,255,255,0.02);
 }
 
+/* --- EASTER EGG STYLES --- */
+.easter-egg {
+    text-align: center;
+    margin: 4rem 0 2rem 0;
+}
+
+#cat-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: #444; /* Low contrast so it stays a secret */
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-family: var(--font-stack);
+    font-size: 0.7rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#cat-btn:hover {
+    color: var(--gray);
+    border-color: var(--gray);
+}
+
+#cat-container {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#cat-container.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+}
+
+#cat-image {
+    max-width: 220px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
 footer {
     text-align: center;
     color: var(--border);
     font-size: 0.8rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding-bottom: 2rem;
 }
 
